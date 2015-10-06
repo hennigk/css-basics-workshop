@@ -4,3 +4,42 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+/*default sizing of kitty image*/
+.kittyImg {
+    margin: 1%;
+    width: 30%;
+}
+
+section{
+    text-align: center;
+}
+
+/*mobile*/
+@media only screen and (max-width:480px){
+    .kittyImg {
+        margin: 1%;
+        width: 98%;
+    }
+}
+
+
+  /* For portrait tablets layouts only */
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+    .kittyImg {
+        margin: 1%;
+        width: 46%;
+    }
+}
+
+/* For landscape tablets only */
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
+    .kittyImg {
+        margin: 1%;
+        width: 46%;
+    }
+}
+
+
+
+
