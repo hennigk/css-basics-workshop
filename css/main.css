@@ -4,3 +4,30 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.dialog-box { 
+    background-color: #d2d2d2; 
+    overflow: hidden;
+    font-family: serif;
+} 
+.dialog-box-title {
+    margin: 1%;
+    font-size: 24px;
+} 
+.dialog-box-content { 
+    background-color: #f2f2f2; 
+    margin: 2%;
+    padding: 2% 1%;
+} 
+
+.dialog-box-close { 
+    border: 2px solid white; 
+    background-color: tomato; 
+    width: 24px; 
+    height: 24px; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1%;
+}
+
